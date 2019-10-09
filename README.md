@@ -1,11 +1,14 @@
 # specs
 Obtain server hardware information (Mobo, CPU, HDD, RAM)
 
-# usage:
+#### installation:
 ```
-# cp specs /usr/local/bin/
-# chmod +x !$
-# specs
+wget https://raw.github.com/denisix/specs/master/specs -O /usr/sbin/specs && chmod +x !$
+```
+
+#### usage:
+```
+$ specs
 
 Mobo: ASUSTeK COMPUTER INC. PRIME B250M-A Rev X.0x
 Sock: LGA1151
